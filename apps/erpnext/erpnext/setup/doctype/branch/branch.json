@@ -1,0 +1,125 @@
+{
+ "actions": [],
+ "allow_import": 1,
+ "allow_rename": 1,
+ "autoname": "field:branch",
+ "creation": "2013-01-10 16:34:13",
+ "doctype": "DocType",
+ "document_type": "Setup",
+ "engine": "InnoDB",
+ "field_order": [
+  "branch",
+  "branch_code",
+  "branch_head",
+  "contact_number",
+  "email",
+  "address",
+  "column_break_hgjh",
+  "parent_organization",
+  "status",
+  "map_location",
+  "share_location"
+ ],
+ "fields": [
+  {
+   "fieldname": "branch",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Branch",
+   "oldfieldname": "branch",
+   "oldfieldtype": "Data",
+   "reqd": 1,
+   "unique": 1
+  },
+  {
+   "fieldname": "branch_code",
+   "fieldtype": "Data",
+   "label": "Branch Code",
+   "unique": 1
+  },
+  {
+   "fieldname": "branch_head",
+   "fieldtype": "Link",
+   "label": "Branch Head",
+   "options": "Employee"
+  },
+  {
+   "fieldname": "contact_number",
+   "fieldtype": "Data",
+   "label": "Contact Number"
+  },
+  {
+   "fieldname": "email",
+   "fieldtype": "Data",
+   "label": "Email"
+  },
+  {
+   "fieldname": "address",
+   "fieldtype": "Small Text",
+   "label": "Address"
+  },
+  {
+   "fieldname": "parent_organization",
+   "fieldtype": "Link",
+   "label": "Parent Organization",
+   "options": "Company"
+  },
+  {
+   "fieldname": "column_break_hgjh",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "status",
+   "fieldtype": "Select",
+   "label": "Status",
+   "options": "Active\nInactive"
+  },
+  {
+   "fieldname": "map_location",
+   "fieldtype": "Geolocation",
+   "label": "Google Map"
+  },
+  {
+   "fieldname": "share_location",
+   "fieldtype": "Button",
+   "label": "Share Location"
+  }
+ ],
+ "icon": "fa fa-code-fork",
+ "idx": 1,
+ "links": [],
+ "modified": "2024-10-16 12:52:28.134716",
+ "modified_by": "Administrator",
+ "module": "Setup",
+ "name": "Branch",
+ "naming_rule": "By fieldname",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "HR User",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "HR Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "quick_entry": 1,
+ "sort_field": "creation",
+ "sort_order": "DESC",
+ "states": []
+}

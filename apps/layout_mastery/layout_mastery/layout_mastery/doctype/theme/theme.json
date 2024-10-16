@@ -1,0 +1,128 @@
+{
+  "doctype": "DocType",
+  "name": "Theme",
+  "module": "Layout Mastery",
+  "custom": 1,
+  "autoname": "format: {theme_name}",
+  "engine": "InnoDB",
+  "fields": [
+    {
+      "fieldname": "theme_title",
+      "fieldtype": "Data",
+      "label": "Theme Title"
+    },
+    {
+      "fieldname": "is_default",
+      "fieldtype": "Check",
+      "label": "Set as Default"
+    },
+    {
+      "fieldname": "primary_color_light",
+      "fieldtype": "Color",
+      "label": "Primary Color (Light Theme)"
+    },
+    {
+      "fieldname": "secondary_color_light",
+      "fieldtype": "Color",
+      "label": "Secondary Color (Light Theme)"
+    },
+    {
+      "fieldname": "btn_border_color_light",
+      "fieldtype": "Color",
+      "label": "Button Border Color (Light Theme)"
+    },
+    {
+      "fieldname": "btn_bg_color_light",
+      "fieldtype": "Color",
+      "label": "Button Background Color (Light Theme)"
+    },
+    {
+      "fieldname": "btn_hover_bg_color_light",
+      "fieldtype": "Color",
+      "label": "Button Hover Background Color (Light Theme)"
+    },
+    {
+      "fieldname": "btn_hover_text_color_light",
+      "fieldtype": "Color",
+      "label": "Button Hover Text Color (Light Theme)"
+    },
+    {
+      "fieldname": "navbar_height_light",
+      "fieldtype": "Data",
+      "label": "Navbar Height (Light Theme)"
+    },
+    {
+      "fieldname": "table_head_bg_light",
+      "fieldtype": "Color",
+      "label": "Table Head Background Color (Light Theme)"
+    },
+    {
+      "fieldname": "text_white_light",
+      "fieldtype": "Color",
+      "label": "Text White (Light Theme)"
+    },
+    {
+      "fieldname": "dark_theme_specific_fields",
+      "fieldtype": "Section Break",
+      "label": "Dark Theme Specific Fields"
+    },
+    {
+      "fieldname": "primary_color_dark",
+      "fieldtype": "Color",
+      "label": "Primary Color (Dark Theme)"
+    },
+    {
+      "fieldname": "secondary_color_dark",
+      "fieldtype": "Color",
+      "label": "Secondary Color (Dark Theme)"
+    },
+    {
+      "fieldname": "btn_border_color_dark",
+      "fieldtype": "Color",
+      "label": "Button Border Color (Dark Theme)"
+    },
+    {
+      "fieldname": "btn_bg_color_dark",
+      "fieldtype": "Color",
+      "label": "Button Background Color (Dark Theme)"
+    },
+    {
+      "fieldname": "btn_hover_bg_color_dark",
+      "fieldtype": "Color",
+      "label": "Button Hover Background Color (Dark Theme)"
+    },
+    {
+      "fieldname": "btn_hover_text_color_dark",
+      "fieldtype": "Color",
+      "label": "Button Hover Text Color (Dark Theme)"
+    },
+    {
+      "fieldname": "navbar_height_dark",
+      "fieldtype": "Data",
+      "label": "Navbar Height (Dark Theme)"
+    },
+    {
+      "fieldname": "table_head_bg_dark",
+      "fieldtype": "Color",
+      "label": "Table Head Background Color (Dark Theme)"
+    },
+    {
+      "fieldname": "text_white_dark",
+      "fieldtype": "Color",
+      "label": "Text White (Dark Theme)"
+    }
+  ],
+  "naming_rule": "Expression",
+  "permissions": [
+    {
+      "role": "System Manager",
+      "create": 1,
+      "delete": 1,
+      "read": 1,
+      "write": 1
+    }
+  ],
+  "sort_field": "creation",
+  "sort_order": "DESC",
+  "track_changes": 1
+}

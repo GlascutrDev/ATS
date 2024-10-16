@@ -1,0 +1,7 @@
+config/
+Procfile
+env
+.idea/
+files/
+sites/
+logs/

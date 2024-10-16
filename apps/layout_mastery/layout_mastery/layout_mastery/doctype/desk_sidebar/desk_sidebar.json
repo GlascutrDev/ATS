@@ -1,0 +1,50 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-09-23 11:19:45.143178",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "menu_items"
+ ],
+ "fields": [
+  {
+   "fieldname": "menu_items",
+   "fieldtype": "Table",
+   "label": "Menu Items",
+   "options": "Desk Sidebar Item"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "issingle": 1,
+ "links": [],
+ "modified": "2024-10-16 13:54:09.025735",
+ "modified_by": "Administrator",
+ "module": "Layout Mastery",
+ "name": "Desk Sidebar",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "print": 1,
+   "read": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "email": 1,
+   "print": 1,
+   "read": 1,
+   "role": "ATS User",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "creation",
+ "sort_order": "DESC",
+ "states": []
+}
